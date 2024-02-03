@@ -10,7 +10,7 @@ connectToDatabase()
     );
   })
   .catch((err) => console.log(err));
-app.use("/ama",(req,res)=>{
-  res.send("hellow");
+app.get("/live",(req,res)=>{
+  res.send("true");
   console.log("hello");
 })

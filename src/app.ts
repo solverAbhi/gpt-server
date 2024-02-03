@@ -8,7 +8,7 @@ config();
 const app = express();
 
 //middlewares
-app.use(cors({ origin: "https://65be6950f775d9a9519d7f60--loquacious-tarsier-c709ae.netlify.app", credentials: true }));
+app.use(cors({ origin: "https://65be7496b90990b30c794b1e--loquacious-tarsier-c709ae.netlify.app", credentials: true }));
 app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 
